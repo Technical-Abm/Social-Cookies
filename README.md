@@ -20,4 +20,4 @@ python main.py
 
 ## Do you need your own Facebook scraping tool?
 
-If you need Facebook scraping, just message me on [Facebook](https://www.facebook.com/Techabm/) - I can create a Facebook scraping tool for you with paid work.
+If you need Facebook scraping, just message me on [Facebook](https://www.facebook.com/Techabm/) - I can create a Facebook scraping tool for you with paid work 💰.
