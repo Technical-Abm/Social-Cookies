@@ -10,7 +10,6 @@ try:
     import sys
     import platform
     from urllib.parse import urlencode
-    import re
 except ImportError:
     os.system("python -m pip install requests")
     os.system("python -m pip install bs4")
