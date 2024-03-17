@@ -17,5 +17,3 @@ pip install requests
 pip install bs4
 python main.py
 ```
-<p align="left">
-<img src="<i class="fa-brands fa-facebook"></i> alt="facebook-icon" width="45" height="45""/>
