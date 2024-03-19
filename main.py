@@ -1,6 +1,5 @@
 #!/usr/bin/python
  # -*- coding: utf-8 -*-
- 
 try:
     import requests
     import re
@@ -8,24 +7,13 @@ try:
     import os
     import time
     import sys
-    import platform
     from urllib.parse import urlencode
 except ImportError:
     os.system("python -m pip install requests")
     os.system("python -m pip install bs4")
     pass
 
-pt = platform.system()
 session = requests.Session()
-
-if pt == 'Windows':
-    os.system('cls')
-elif pt == 'Linux':
-    os.system('clear')
-elif pt == 'Darwin':
-    os.system('clear')
-else:
-    os.system('cls')
     
 owner_name = 'Technical Abm'
 github = 'https://github.com/Technical-Abm'
@@ -56,7 +44,7 @@ class Main:
         pass
     
     def main(self):
-        os.system('cls')
+        os.system('clear')
         print(logo)
         print('Get Social media login cookies'.center(50))
         print('')
@@ -67,8 +55,8 @@ class Main:
         print('---------------------------------------------------')
         self.choice = input('[!] Choose an valid option: ')
         if self.choice in ('1' or '01'):
-            fb_cookies = Main_cookies()
-            fb_cookies.main_fb_cookies()
+            fb_cookies = Main_facebook_dev()
+            fb_cookies.facebook_dev()
         elif self.choice in ('2' or '02'):
             fb_token = Main_token()
             fb_token.main_fb_token()
@@ -83,12 +71,12 @@ class Main:
             time.sleep(2)
             self.main()
 
-class Main_cookies:
+class Main_facebook_dev:
     def __init__(self) -> None:
         pass
     
-    def main_fb_cookies(self):
-        os.system('cls')
+    def facebook_dev(self):
+        os.system('clear')
         print(logo)
         print('Choose an method to get fb cookies'.center(50))
         print('')
@@ -137,7 +125,7 @@ class Desktop:
         pass
     
     def desktop_fb(self):
-        os.system('cls')
+        os.system('clear')
         print(logo)
         print('Enter email/username and password'.center(50))
         print('')
@@ -242,7 +230,7 @@ class M_facebook:
         pass
     
     def m_facebook(self) -> None:
-        os.system('cls')
+        os.system('clear')
         print(logo)
         print('Enter fb username/email and password'.center(50))
         print('Do not login your personel account'.center(50))
@@ -328,7 +316,7 @@ class Basic_facebook:
         pass
     
     def basic_facebook(self) -> None:
-        os.system('cls')
+        os.system('clear')
         print(logo)
         print('Enter fb username/email and password'.center(50))
         print('Do not login your personel account'.center(50))
@@ -409,7 +397,7 @@ class Main_token:
         pass
     
     def main_fb_token(self) -> None:
-        os.system('cls')
+        os.system('clear')
         print(logo)
         print('Enter fb login cookies here'.center(50))
         print('')
@@ -468,7 +456,7 @@ class Main_cookies:
         pass
     
     def main_insta_cookies(self):
-        os.system('cls')
+        os.system('clear')
         print(logo)
         print('Enter username/email and password to get insta cookies'.center(50))
         print('')
