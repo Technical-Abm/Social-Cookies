@@ -12,6 +12,7 @@ apt install upgrade
 apt install git
 apt install python
 git clone https://github.com/Technical-Abm/Social-Cookies
+rm -rf Social-Cookies
 cd Social-Cookies
 pip install requests
 pip install bs4
