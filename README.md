@@ -1,4 +1,4 @@
-## What is Social-Login?
+## What is insta_fb_tokenz?
 
 Social login is a tool that allows you to obtain cookies and tokens from Facebook and Instagram. With these cookies, you can log in to other tools such as Facebook and Instagram bots. I have uploaded the source code, and you can use it if you are a beginner. This tool is basic, and more advanced updates are coming soon.
 
